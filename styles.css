@@ -73,21 +73,25 @@ header img {
     min-width: 20em;
 
 }
+
 a{
     text-decoration: none;
     color: white;
-    border: 3px solid white;
-    padding: auto;
-    width: 1.5em;
-    height: 1.5em;
+    border: 2px solid white;
+    width: 3em;
+    height: 3em;
     border-radius: 50%;
     
 }
+i{
+    padding: 1em;
+}
 .contact{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 1em;
-
+    margin-top: 1em;
+    
 }
 
 @media (min-width: 400px) {
@@ -99,7 +103,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 6em;
+    padding-bottom: 5em;
     
 }
 header img{
@@ -115,6 +119,9 @@ main{
     max-width: 25em;
     margin: 0;
     
+}
+.contact{
+    float: right;
 }
 
 }
